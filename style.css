@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    /* position: relative; */
+}
+
+ul li {
+    list-style: none;
+}
+
+a .back {
+    /* float: right; */
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    z-index: 1;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 14px;
+}
+
+/* header */
+#header {
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+#header a img {
+    height: 80px;
+}
+
+#header ul {
+    float: right;
+    width: 45%;
+    margin-top: -80px;
+}
+
+#header ul li, #list_sp ul li, #thongtin ul li {
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 40px;
+    list-style: none;
+}
+
+#header ul li a, #list_sp ul li a, #thongtin ul li a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* slider */
+#slider {
+    margin-top: 80px;
+}
+
+#slider img{
+    height: 600px;
+    margin-top: -10px;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+/* sp_hot */
+#sp_hot {
+    margin-top: 50px;
+    /* text-align: center; */
+    height: 400px;
+}
+
+#sp_hot h1, #thongtin h1 {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#sp_hot .img_3, #list_sp .img_3, #thongtin .img_3{
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: #ccc;
+    padding: 30px 0;
+    margin: 10px 62px;
+}
+
+#sp_hot .img_3 img, #list_sp .img_3 img, #thongtin .img_3 img {
+    width: 200px;
+    height: 200px;
+}
+
+#sp_hot .img_3 .name, #list_sp .img_3 .name, #thongtin .img_3 .name {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#sp_hot .img_3 .price, #list_sp .img_3 .price, #thongtin .img_3 .price {
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(223, 27, 27);
+    font-weight: bold;
+
+}
+
+/* list_sp */
+#list_sp {
+    margin-top: 30px;
+    text-align: center;
+    height: 1300px;
+    /* background-color: #ccc; */
+
+}
+
+#list_sp h1, #thontin h1{
+    text-align: center;
+}
+
+#list_sp .img_3 {
+    margin-top: 20px;
+}
+
+#list_sp ul, #thongtin ul {
+    background-color: rgb(241, 229, 159);
+    text-align: center;
+}
+
+#list_sp button {
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(83, 148, 223);
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+}
+
+/* footer */
+#footer {
+    /* display: inline-block; */
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+#footer h1 {
+    margin-top: 20px;
+}
+
+#footer img {
+    /* width: 10%; */
+    float: left;
+}
+
+#footer iframe {
+    /* width: 50%; */
+    height: 180px;
+    float: right;
+    margin-top: -180px;
+    margin-right: 22px;
+}
+
+/* Giới thiệu */
+#gioithieu_sp {
+    /* text-align: center; */
+}
+
+#gioithieu_sp > h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #000;
+}
+
+#gioithieu_sp .row {
+    margin: 10px;
+}
+
+#gioithieu_sp .col-md-8 {
+    font-size: 20px;
+}
+
+#gioithieu_sp .col-md-8 h1 {
+    color: rgb(83, 183, 216);
+}
+
+#gioithieu_sp .col-md-4 img {
+    width: 400px;
+}
+
+/* Sữa rửa mặt */
+#thongtin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#thongtin h1 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+
+#thongtin .tt p {
+    /* float: left; */
+    width: 50%;
+    margin-left: 120px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+#thongtin .tt img {
+    float: right;
+    width: 420px;
+    height: 300px;
+    margin-right: 140px;
+}
+
+/* Đăng nhập */
+#dangnhap {
+    text-align: center;
+}
+
+#dangnhap .h1 {
+    color: rgb(91, 218, 42);
+}
+
+#dangnhap form {
+    font-size: 24px;
+}
+
+#dangnhap form input {
+    padding: 10px;
+    width: 50%;
+}
+
+#dangnhap form .name11 input {
+    margin-left: 90px;
+    
+}
+
+#dangnhap form .name1 input {
+    margin-left: 62px;
+}
+
+#dangnhap form .name2 input {
+    /* width: 49%; */
+   margin-left: 111px; 
+}
+
+#dangnhap form .name3 input {
+    /* width: 49%; */
+    margin-left: 58px;
+}
+
+#dangnhap form .name4 input {
+    /* width: 49%; */
+    margin-left: 30px;
+}
+
+#dangnhap a .log {
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-size: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+/* chi tiết sp */
+
+#chi_tiet {
+    margin-top: 30px;
+}
+
+#chi_tiet h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 54px;
+}
+
+#chitiet #sp_hot {
+    margin-top: 100px;
+}
+
+#chi_tiet img {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#chi_tiet .content {
+    margin: 20px 80px;
+    font-size: 28px;
+}
+
+#chi_tiet .content ul li {
+    list-style: circle;
+}
+
+#chi_tiet .content h2 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#chi_tiet .content p {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#chi_tiet .content button {
+    float: right;
+    margin-right: 300px;
+    margin-top: -44px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
